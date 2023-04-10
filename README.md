@@ -2,7 +2,7 @@
 
 click the link below to use the app:
 
-https://afnanurrahim-anime-recommendation-sys-recommendation-app-cmz9td.streamlit.app/
+https://afnanurrahim-anime-recommendator-recommendation-app-ptvcsz.streamlit.app/
 
 ## About
 Welcome to our anime recommendation system! With over **11,000+** anime in our database, we use advanced algorithms to provide personalized recommendations based on user preferences. Our system utilizes both content-based and collaborative filtering approaches, and uses the **cosine similarity** metric to calculate similarity between anime or users.
