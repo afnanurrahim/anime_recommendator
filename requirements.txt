@@ -1,0 +1,7 @@
+streamlit
+streamlit-extras
+pandas
+numpy
+requests
+bs4
+scikit-learn
