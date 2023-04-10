@@ -1,8 +1,7 @@
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
-df= pd.read_csv('filtered_rating.csv')
-df=df.drop(columns=['Unnamed: 0'],axis=1)
+df= pd.read_csv('ratings.csv')
 
 def user_anime(anime_score):          # anime_score -> dictionary
     df_table=pd.DataFrame(columns=['MAL_ID','user_id','rating'])
