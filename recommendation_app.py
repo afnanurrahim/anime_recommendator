@@ -47,7 +47,7 @@ with tab1:
                     URL = f"https://myanimelist.net/anime/{i}"
                     r = requests.get(URL,headers=header)
                     soup = BeautifulSoup(r.content,"html.parser")
-                    img=soup.find_all('img')[1]['data-src']
+                    img=soup.find_all('img')[2]['data-src']
                     image_dict[i]=img
 
                 img_col.image(img)
@@ -103,7 +103,7 @@ with tab2:
                             URL = f"https://myanimelist.net/anime/{j}"
                             r = requests.get(URL,headers=header)
                             soup = BeautifulSoup(r.content,"html.parser")
-                            img=soup.find_all('img')[1]['data-src']
+                            img=soup.find_all('img')[2]['data-src']
                             image_dict[j]=img
                         c.image(img)
                         title= df[df['MAL_ID']==j]['Name'].values[0]
